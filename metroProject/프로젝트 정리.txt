@@ -1,14 +1,3 @@
-
-0. 시연 영상 촬영(전체 화면)
-
-1. DB세팅
-  유저/패스워드 admin/admin1234
-
-CREATE DATABASE `metroproject`  /*!40100 DEFAULT CHARACTER SET utf8 */
-
-2. API DOC 만들기
-document 주석
-
 /**
  * @Method Name: ${enclosing_method}
  * @작성일: ${date}
@@ -59,8 +48,3 @@ Ex)
 		]
 		}
 	}
-
-유튜브에 넣어야함
-
-lhkport
-https://youtu.be/DoV3HBcHchE
