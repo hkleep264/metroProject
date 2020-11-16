@@ -1,0 +1,66 @@
+
+0. 시연 영상 촬영(전체 화면)
+
+1. DB세팅
+  유저/패스워드 admin/admin1234
+
+CREATE DATABASE `metroproject`  /*!40100 DEFAULT CHARACTER SET utf8 */
+
+2. API DOC 만들기
+document 주석
+
+/**
+ * @Method Name: ${enclosing_method}
+ * @작성일: ${date}
+ * @작성자: 이현규
+ * @Method 설명:
+ * ${tags]
+*/
+
+getMidPoint
+ * {
+		"result":{
+			"count":(정차역 갯수),
+			"station":[
+				{
+				"nonstopStation":미정차정류장 (0:정차, 1:미정차),
+				"stationClass": 대중교통 POI 종류  1 : 버스정류장 , 2 : 지하철역, 3 : 기차역, 4 : 고속버스터미널, 5 : 공항, 6 : 시외버스터미널, 7 : 항만
+				"stationName":"대중교통 POI 이름",
+				"stationID":대중교통 POI ID,
+				"x":x좌표(경위도),
+				"y":y좌표(경위도),
+				"arsID":"정류장 고유번호",
+				"type":노선종류,
+				"laneName":"노선명",
+				"laneCity":"노선지역명",
+				"ebid":"정류장 고유번호"
+				}
+			]
+			}
+		}
+Ex)
+	{
+	"result":{
+		"count":1,
+		"station":[
+			{
+			"nonstopStation":0,
+			"stationClass":2,
+			"stationName":"상월곡",
+			"stationID":642,
+			"x":127.04888,
+			"y":37.60661,
+			"arsID":"642",
+			"type":6,
+			"laneName":"수도권 6호선",
+			"laneCity":"수도권",
+			"ebid":"642"
+			}
+		]
+		}
+	}
+
+유튜브에 넣어야함
+
+lhkport
+https://youtu.be/DoV3HBcHchE
