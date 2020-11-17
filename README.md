@@ -10,12 +10,12 @@
 ## YouTube
 [![Watch the video](https://img.youtube.com/vi/DoV3HBcHchE/hqdefault.jpg)](https://youtu.be/DoV3HBcHchE)
 
-# JAVADOC
+## JAVADOC
 
 https://hkleep264.github.io/metroProject/metroProject/doc/index.html
 
 
-#Java
+## Java
 
 public String getMidPoint(ArrayList<HashMap<String,Object>> list) {
 		
@@ -76,7 +76,7 @@ public String getMidPoint(ArrayList<HashMap<String,Object>> list) {
 	}
   
   
-##mysql
+## mysql
   
   CREATE DATABASE `lhkdb` IF NOT EXISTS lhkdb;
 
@@ -188,3 +188,5 @@ UNLOCK TABLES;
 -- Dump completed on 2020-11-11 18:43:33
 
 ## 힘들었던 점
+지하철 역 사이 좌표 지점 찾기 알고리즘 만드는 부분
+여전히 이쁘지는 않은 UI
