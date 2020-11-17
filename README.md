@@ -1,14 +1,17 @@
 # metroProject
 
-
-# JavaDocTest
 ## 프로그램 주제 
 지하철 중간지점 찾아주기
 
 ## 핵심 기능
 로그인/회원가입
-
 위치 기반 지하철 중간지점 찾아주기 
+
+#YouTube
+[![Watch the video](https://img.youtube.com/vi/DoV3HBcHchE/hqdefault.jpg)](https://youtu.be/DoV3HBcHchE)
+
+#JAVADOC
+https://hkleep264.github.io/metroProject/metroProject/doc/index.html
 
 
 #Java
