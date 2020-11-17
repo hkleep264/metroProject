@@ -8,15 +8,14 @@
 위치 기반 지하철 중간지점 찾아주기 
 
 ##YouTube
-
 [![Watch the video](https://img.youtube.com/vi/DoV3HBcHchE/hqdefault.jpg)](https://youtu.be/DoV3HBcHchE)
 
-##JAVADOC
+#JAVADOC
 
 https://hkleep264.github.io/metroProject/metroProject/doc/index.html
 
 
-##Java
+#Java
 
 public String getMidPoint(ArrayList<HashMap<String,Object>> list) {
 		
