@@ -7,14 +7,17 @@
 로그인/회원가입
 위치 기반 지하철 중간지점 찾아주기 
 
-#YouTube
+##YouTube
+
 [![Watch the video](https://img.youtube.com/vi/DoV3HBcHchE/hqdefault.jpg)](https://youtu.be/DoV3HBcHchE)
 
-#JAVADOC
+##JAVADOC
+
 https://hkleep264.github.io/metroProject/metroProject/doc/index.html
 
 
-#Java
+##Java
+
 public String getMidPoint(ArrayList<HashMap<String,Object>> list) {
 		
 		double xMax = 0;
@@ -74,7 +77,8 @@ public String getMidPoint(ArrayList<HashMap<String,Object>> list) {
 	}
   
   
-  #mysql
+##mysql
+  
   CREATE DATABASE `lhkdb` IF NOT EXISTS lhkdb;
 
 USE lhkdb;
